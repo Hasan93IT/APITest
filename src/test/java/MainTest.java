@@ -18,6 +18,6 @@ public class MainTest {
         given().
                 get("https://www.amjis.com/").
                 then().
-                statusCode(200);
+                statusCode(201);
     }
 }
